@@ -1,16 +1,18 @@
 def basic_calculator():
     num1 = float(input("Please Enter Number 1: "))
-    operation = input("Please Enter Operation to perform on Numbers: ")
+    operation = input("Please Enter Operation: ")
     num2 = float(input("Please Enter Number 2: "))
 
     if operation == "+":
         result = num1 + num2
-    if operation == "-":
+    elif operation == "-":
         result = num1 - num2
-    if operation == "*":
+    elif operation == "*":
         result = num1 * num2
-    if operation == "/":
+    elif operation == "/":
         result = num1 / num2
+    else:
+        print("Invalid Operator")
 
     print("\n******** Result ********* ")
     print("Result: " + str(result))
