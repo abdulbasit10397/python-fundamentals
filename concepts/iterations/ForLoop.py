@@ -7,3 +7,8 @@ numbers = [10, 45, 32, 56, 76, 87, 98, 23, 67]
 
 print("******* ITERATING LIST ELEMENTS")
 print_all_numbers(numbers)
+
+print("\n------------------------------------------------------\n")
+name = "Abdul Basit"
+for char in name:
+    print(char)
