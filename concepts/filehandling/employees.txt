@@ -4,3 +4,4 @@ Ishan - iOS Engineer
 Umer - Backend Engineer
 Bharathi - Tester
 Surbhi - Business Analyst
+Pramod - Scrum Master
